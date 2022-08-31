@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  background-color: black;
+  color: white !important;
+}
+
+hr {
+  border-color: white;
+}
+
+.puntero {
+  cursor: pointer;
+}
+
+.img-circle {
+  border-radius: 100%;
+  width: 150px;
+}

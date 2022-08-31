@@ -1,0 +1,9 @@
+a {
+  color: lightgray;
+  font-size: 2vh;
+}
+
+.router-link-active {
+  color: lightgray;
+  font-weight: bold;
+}
