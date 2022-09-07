@@ -1,1 +1,6 @@
-<p>search works!</p>
+<div class="search-artists">
+  <input #artist (keyup)="getArtist(artist.value)" type="text" name="search" id="search-artist" placeholder="Search artist">
+</div>
+<div class="container-artist">
+  <app-cards [loading]="loading" [items]="artists"></app-cards>
+</div>

@@ -1,0 +1,21 @@
+.artist-container {
+  height: 20vh;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+}
+
+img {
+  height: 22vh;
+  width: 15vw;
+}
+
+.content {
+  width: 100%;
+}
+
+button {
+  margin-left: 2vw;
+}

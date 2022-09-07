@@ -1,0 +1,9 @@
+.loading-container {
+  margin-top: 6vh;
+  display: flex;
+  justify-content: center;
+}
+
+.loading {
+  height: 2vh;
+}

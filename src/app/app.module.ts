@@ -8,15 +8,22 @@ import { HttpClientModule } from '@angular/common/http';
 //Services
 import { SpotifyService } from './services/spotify.service';
 
+//Components
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 import { SearchComponent } from './components/search/search.component';
 import { ArtistComponent } from './components/artist/artist.component';
 import { NavbarComponent } from './components/shared/navbar/navbar.component';
+import { CardsComponent } from './components/cards/cards.component';
+import { LoadingComponent } from './components/shared/loading/loading.component';
 
 //Routes
 import { ROUTES } from './app.routes';
+
+//Pipes
+import { NoimagePipe } from './pipes/noimage.pipe';
+import { DomseguroPipe } from './pipes/domseguro.pipe';
 
 @NgModule({
   declarations: [
@@ -25,6 +32,10 @@ import { ROUTES } from './app.routes';
     SearchComponent,
     ArtistComponent,
     NavbarComponent,
+    NoimagePipe,
+    CardsComponent,
+    LoadingComponent,
+    DomseguroPipe,
   ],
   imports: [
     BrowserModule,

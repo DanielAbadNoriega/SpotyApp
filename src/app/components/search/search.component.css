@@ -1,0 +1,13 @@
+.search-artists {
+  padding: 1vh;
+  width: 90%;
+  height: 6vh;
+}
+#search-artist {
+  width: 100%;
+  height: 4vh;
+  text-align: initial;
+  font-family: fangsong;
+  font-weight: bold;
+  padding: 1vw;
+}
