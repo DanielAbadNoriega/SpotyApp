@@ -22,11 +22,16 @@ export class ArtistComponent implements OnInit {
 
   showArtist(id: string) {
     this.loading = true;
-    this.spotify.getArtist(id).subscribe((data: any) => {
-      this.artist = data;
-      this.loading = false;
-      console.log(data);
-    });
+    this.spotify.getArtist(id).subscribe(
+      (data: any) => {
+        this.artist = data;
+        this.loading = false;
+        console.log(data);
+      },
+      (error) => {
+        console.log(`[artist-showArtist] Error : ${error.error.error.message}`);
+      }
+    );
   }
 
   ngOnInit(): void {}

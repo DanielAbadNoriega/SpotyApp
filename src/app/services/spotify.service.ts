@@ -7,7 +7,7 @@ import { map } from 'rxjs/operators';
 })
 export class SpotifyService {
   bearer: string =
-    'Bearer BQBjQmal4u-fz7NKiOfbD3RXQjuek2OLygkZP-GDmb07VIP475yDjZgnmnvJxlGYnOC8bXfH_-ykemSBcLylQyHhWSQ0a8FXSONp_0lyHcSRPwOtEroe4FRMlKfObiV8JjwH4mVkLQJjonNmww8zJBrI6cm0pIPXAmHf_SkyS9BV9Bj04C3_nYDvsTYnrrHd4YI';
+    'Bearer BQD3i5k9ZxMXQWy6yENfvrDlqXtrGNjlDk9t6QdbDn4COtKm5O-hrAQnMaMX4kKMMQU6ihhAAxdc7PqYh6lbjig7PYKxy5rqk74sp-cLCf70GbYQJMMcJkj_LlzjgSdS746hc-VC_S-cDy0YaKRtiVNNGy4Rs62cgJSCXSI9NslolWJ9OhTur7nDEAXBFrXJE14';
 
   constructor(private http: HttpClient) {
     console.log('Spotify Services!!');
